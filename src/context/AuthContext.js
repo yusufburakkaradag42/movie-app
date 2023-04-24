@@ -37,7 +37,7 @@ const AuthContextProvider = ({ children }) => {
   const createUser = async (email, password, displayName) => {
     try {
       //? yeni bir kullanıcı oluşturmak için kullanılan firebase metodu
-       await createUserWithEmailAndPassword(
+      let userCredential = await createUserWithEmailAndPassword(
         auth,
         email,
         password
