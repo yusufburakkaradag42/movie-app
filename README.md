@@ -46,9 +46,6 @@ SOLUTION
 
 ![Project Snapshot](movie-app_structure.png)
 
-## Expected Outcome
-
-![Project Snapshot](movie-app.gif)
 
 ## Objective
 
